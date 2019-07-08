@@ -1,7 +1,6 @@
-# Flask Template
+# Flask Dropbox OAuth Example
 
-This project is a starter template used for Flask projects.  
-It's designed to let you start building your app with a minimal amount of setup.
+This project is a simple example of how to setup dropbox OAuth in Flask projects.  
 
 ## Getting Started
 
@@ -10,7 +9,13 @@ It's designed to let you start building your app with a minimal amount of setup.
 3. Setup a virtual environment with `python3 -m venv env`
 4. Activate the virtual environment with `source env/bin/activate`
 5. Install the project dependencies with `pip install -r requirements.txt`
-6. You're ready to launch!
+6. Add the following to the config.py file:
+* Dropbox App Key
+* Dropbox App Secret Key
+7. Ensure that `http://localhost:5000/dropbox-authenticate-finish` is added as a redirect URI for your dropbox app.
+8. Run the app with `heroku local` or `flask run`
+9. Navigate to http://localhost:5000/authenticate
+10. This will start the oauth process by redirecting you to dropbox!
 
 ### Prerequisites
 
@@ -23,9 +28,7 @@ It's designed to let you start building your app with a minimal amount of setup.
 
 ## Deployment
 
-This project is designed to be deployable with heroku immdiately.
-If you have the Heroku commandline tools installed, you can run the app with `heroku local`.
-
+* Coming soon.
 
 ## Built With
 

@@ -2,3 +2,5 @@ import os
 
 class Config(object):
     SECRET_KEY = os.environ.get('SECRET_KEY') or "A DUMMY SECRET KEY GOES HERE"
+    DROPBOX_APP_KEY = os.environ.get('DROPBOX_APP_KEY') or "YOUR DROPBOX APP KEY GOES HERE"
+    DROPBOX_APP_SECRET_KEY = os.environ.get('DROPBOX_APP_SECRET_KEY') or "YOUR DROPBOX APP SECRET KEY GOES HERE"
