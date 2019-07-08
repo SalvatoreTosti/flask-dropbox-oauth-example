@@ -1,6 +1,6 @@
 # Flask Dropbox OAuth Example
 
-This project is a simple example of how to setup dropbox OAuth in Flask projects.  
+This project is a simple example of how to setup Dropbox OAuth in Flask projects.  
 
 ## Getting Started
 
